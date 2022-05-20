@@ -4,7 +4,7 @@ from phonebook import Phonebook
 
 def test_add_and_lookup_entry():
     pbk = Phonebook()
-    pytest.skip('WIP')
+    #pytest.skip('WIP')
     pbk.add('Naren', '123')
     assert '123' == pbk.lookup('Naren'), 'Naren not found'
 
@@ -19,4 +19,4 @@ def test_phonebook_gives_access_to_names_and_numbers():
 def test_missing_entry_raises_key_error():
     pbk = Phonebook()
     with pytest.raises(KeyError):
-        pbk.lookup('missing') 
+        pbk.lookup('missing')
