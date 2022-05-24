@@ -1,0 +1,8 @@
+Name: ng1
+Post: sdn
+Salary: 23
+
+Name: naren
+Post: engineer
+Salary: 4500
+
